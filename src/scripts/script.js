@@ -67,12 +67,12 @@ function musicMortalKombat(){
 }
 
 if('vibrate' in navigator){
-    textSupport.innerHTML = 'You browser supports'
+    textSupport.innerHTML = 'Your browser support'
     btnSimpsons.addEventListener('click', musicSimpsons);
     btnGhostBusters.addEventListener('click', musicGhostBusters);
     btnMario.addEventListener('click', musicMario);
     btnPowerRangers.addEventListener('click', musicPowerRangers);
     btnMortalKombat.addEventListener('click', musicMortalKombat);
 }else{
-    textSupport.innerHTML = 'You browser does not supports'
+    textSupport.innerHTML = 'Your browser does not support'
 }
